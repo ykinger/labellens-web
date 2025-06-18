@@ -1,10 +1,10 @@
 export default {
   Auth: {
-    region: 'us-east-1', // Replace with your region
-    userPoolId: 'us-east-1_xxxxxxxx',
-    userPoolWebClientId: 'xxxxxxxxxxxxxxxxxxxxxxxxxx',
+    region: 'ca-central-1', // Replace with your region
+    userPoolId: 'ca-central-1_uAq6Jtdag',
+    userPoolWebClientId: '2keiap94nj865hbfr745nq4clu',
     oauth: {
-      domain: 'your-cognito-domain.auth.us-east-1.amazoncognito.com',
+      domain: 'labellens.auth.ca-central-1.amazoncognito.com',
       scope: ['email', 'openid', 'profile'],
       redirectSignIn: 'http://localhost:3000/callback',
       redirectSignOut: 'http://localhost:3000/',
